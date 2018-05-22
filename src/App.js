@@ -44,9 +44,9 @@ class App extends Component {
           To get started, edit <code>src/App.js</code> and save to reload.
         </p>
         <div>
-          <ul>
+          <ul class="list-group">
           {this.state.titles.map(title =>
-            <li key={title}>{title}</li>
+            <li class="list-group-item">{title}</li>
           )}
         </ul>
         </div>
