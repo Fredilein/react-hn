@@ -1,5 +1,7 @@
 .App {
   text-align: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
 .App-logo {
@@ -12,6 +14,12 @@
   height: 150px;
   padding: 20px;
   color: white;
+
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  width: 100%;
 }
 
 .App-title {
@@ -29,4 +37,8 @@
 
 .list-group-item {
   text-align: left;
+}
+
+.hn-root {
+  padding-top: 170px;
 }
