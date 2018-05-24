@@ -39,6 +39,13 @@
   text-align: left;
 }
 
-.hn-root {
+.body-root {
   padding-top: 170px;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.xkcd-img {
+  max-width:100%;
+  max-height:100%;
 }
