@@ -22,15 +22,15 @@ class App extends React.Component {
           </header>
           <div className="body-root">
             <div className="row">
-              <div className="col-sm-6">
-                <div className="row">
+              <div className="col-sm-6 component-col">
+                <div className="col-sm-12 component-sm">
                   <Weather/>
                 </div>
-                <div className="row">
+                <div className="col-sm-12 component-sm">
                   <Xkcd/>
                 </div>
               </div>
-              <div className="col-sm-6">
+              <div className="col-sm-6 component-col">
                 <Hackernews/>
               </div>
             </div>
