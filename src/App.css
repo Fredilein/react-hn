@@ -39,6 +39,11 @@
   text-align: left;
 }
 
+.hn-root {
+  height: 100vh;
+  overflow:scroll;
+}
+
 .body-root {
   padding-top: 170px;
   padding-left: 20px;
